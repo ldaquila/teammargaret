@@ -9,15 +9,28 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UIButton *button;
 
 @end
 
 @implementation ViewController
 
+- (IBAction)didSelectGoButton:(id)sender {
+    self.label.text = @"hello";
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{/*
+    NSString* stringWater = [[NSUserDefaults standardUserDefaults] stringForKey:@"water"];
+    
+    NSLog(@"The button alled %@",stringWater);*/
 }
 
 - (void)didReceiveMemoryWarning
