@@ -8,12 +8,16 @@
 
 #import "UrgentTableViewCell.h"
 
+<<<<<<< HEAD
 
 @implementation UrgentTableViewCell
 @synthesize nameLabel = _nameLabel;
 @synthesize textLabel = _textLabel;
 @synthesize residentImage = _residentImage;
 
+=======
+@implementation UrgentTableViewCell
+>>>>>>> b95e33a4e5b9394a51b5598279d7af66fd53c94f
 
 - (void)awakeFromNib {
     // Initialization code

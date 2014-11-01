@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface UrgentTableViewCell : UITableViewCell
+<<<<<<< HEAD
 @property (nonatomic, strong) IBOutlet UIImageView *residentImage;
 @property (nonatomic, strong) IBOutlet UILabel *nameLabel;
 @property (nonatomic, strong) IBOutlet UILabel *textLabel;
 
 
 
+=======
+>>>>>>> b95e33a4e5b9394a51b5598279d7af66fd53c94f
 
 @end

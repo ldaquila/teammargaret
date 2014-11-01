@@ -7,9 +7,12 @@
 //
 
 #import "UrgentTableViewController.h"
+<<<<<<< HEAD
 #import "UrgentTableViewCell.h"
 #import "utils.h"
 //#import <Firebase/Firebase.h>
+=======
+>>>>>>> b95e33a4e5b9394a51b5598279d7af66fd53c94f
 
 @interface UrgentTableViewController ()
 
@@ -17,11 +20,14 @@
 
 @implementation UrgentTableViewController
 
+<<<<<<< HEAD
 @synthesize residentImages = _residentImages;
 @synthesize names = _names;
 @synthesize textRequests = _textRequests;
 @synthesize isUrgent = _isUrgent;
 
+=======
+>>>>>>> b95e33a4e5b9394a51b5598279d7af66fd53c94f
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -30,6 +36,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+<<<<<<< HEAD
     NSLog(@"did load");
 
     self.isUrgent = @[@"y", @"n", @"y", @"n", @"n"];
@@ -58,6 +65,8 @@
     
     
     
+=======
+>>>>>>> b95e33a4e5b9394a51b5598279d7af66fd53c94f
 }
 
 - (void)didReceiveMemoryWarning {
@@ -68,6 +77,7 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+<<<<<<< HEAD
 
     // Return the number of sections.
     return 1;
@@ -132,6 +142,19 @@
 
 
 
+=======
+#warning Potentially incomplete method implementation.
+    // Return the number of sections.
+    return 0;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+#warning Incomplete method implementation.
+    // Return the number of rows in the section.
+    return 0;
+}
+
+>>>>>>> b95e33a4e5b9394a51b5598279d7af66fd53c94f
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
