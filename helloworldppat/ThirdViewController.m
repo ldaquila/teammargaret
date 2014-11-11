@@ -7,12 +7,9 @@
 //
 
 #import "ThirdViewController.h"
-
-<<<<<<< HEAD
 #import "UrgentTableViewController.h"
 #import "utils.h"
-=======
->>>>>>> b95e33a4e5b9394a51b5598279d7af66fd53c94f
+
 @interface ThirdViewController ()
 
 @end
@@ -51,7 +48,6 @@
 }
 */
 
-<<<<<<< HEAD
 - (IBAction)videoChat:(id)sender {
     
     //static UIColor *color = [self colorWithHexString:@"FF8D71"];
@@ -70,6 +66,5 @@
     // Write data to Firebase
     //[myRootRef setValue:@"Do you have data? You'll love Firebase."];
 }
-=======
->>>>>>> b95e33a4e5b9394a51b5598279d7af66fd53c94f
+
 @end

@@ -10,15 +10,10 @@
 
 @interface ThirdViewController : UIViewController
 
-<<<<<<< HEAD
 
 - (IBAction)videoChat:(id)sender;
 
 
 
 
-
-
-=======
->>>>>>> b95e33a4e5b9394a51b5598279d7af66fd53c94f
 @end

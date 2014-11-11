@@ -10,12 +10,8 @@
 
 @interface UrgentTableViewController : UITableViewController
 
-<<<<<<< HEAD
 @property (nonatomic, strong) NSArray *residentImages;
 @property (nonatomic, strong) NSArray *names;
 @property (nonatomic, strong) NSArray *textRequests;
 @property (nonatomic, strong) NSArray *isUrgent;
 @end
-=======
-@end
->>>>>>> b95e33a4e5b9394a51b5598279d7af66fd53c94f
